@@ -1,2 +1,17 @@
 # h3n2-prediction-explorer
-Building and testing different predictive models using custom sections of a dataset
+
+This is an application built using Shiny to build and test different predictive models using custom sections of a dataset.
+
+The main purpose of this example is to illustrate how to run Shiny apps from a remote source.
+There are many ways to download and run it:
+
+```R
+library(shiny)
+
+# Easiest way is to use runGitHub
+runGitHub("h3n2-prediction-explorer", "kpenti")
+
+# Run a tar or zip file directly
+runUrl("https://github.com/kpenti/h3n2-prediction-explorer/archive/master.tar.gz")
+runUrl("https://github.com/kpenti/h3n2-prediction-explorer/archive/master.zip")
+```
