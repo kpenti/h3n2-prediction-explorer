@@ -2,7 +2,6 @@
 
 This is an application built using Shiny to build and test different predictive models using custom sections of a dataset.
 
-The main purpose of this example is to illustrate how to run Shiny apps from a remote source.
 There are many ways to download and run it:
 
 ```R
